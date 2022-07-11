@@ -1,17 +1,10 @@
-endi:
-  name: Endilie Yacop Sucipto
-  title: Maintainer of Docusaurus
-  url: https://github.com/endiliey
-  image_url: https://github.com/endiliey.png
+feri:
+  name: Feraidoon Mehri
 
-yangshun:
-  name: Yangshun Tay
-  title: Front End Engineer @ Facebook
-  url: https://github.com/yangshun
-  image_url: https://github.com/yangshun.png
+  # title: The Administrator
 
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
+  # url: https://github.com/NightMachinery
+  url: https://www.linkedin.com/in/feraidoon-mehri/
+
+  # image_url: https://github.com/NightMachinery.png
+  image_url: https://media-exp1.licdn.com/dms/image/C5603AQEPRIcuvjB6Xw/profile-displayphoto-shrink_400_400/0/1655897308497?e=1662595200&v=beta&t=EmszwPZBEKwEGyDYuo8iuGSBRK5AEm9Ka2ivFOmf8TY # LinkedIn profile

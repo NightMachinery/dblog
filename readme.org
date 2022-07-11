@@ -1,0 +1,45 @@
+#+TITLE: Feraidoon's Blog
+
+* Website
+This website is built using [[https://docusaurus.io/][Docusaurus 2]], a modern static website generator.
+
+*** Installation
+#+begin_example zsh
+yarn
+#+end_example
+
+*** Local Development
+#+begin_example zsh
+yarn start
+#+end_example
+
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+
+*** Build
+#+begin_example zsh
+yarn build
+#+end_example
+
+This command generates static content into the =build= directory and can be served using any static contents hosting service.
+
+*** Deployment
+Using SSH:
+
+#+begin_example zsh
+USE_SSH=true yarn deploy
+#+end_example
+
+Not using SSH:
+
+#+begin_example zsh
+GIT_USER=<Your GitHub username> yarn deploy
+#+end_example
+
+If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the =gh-pages= branch.
+
+* Feeds
+** [[https://nightmachinery.github.io/dblog/blog/feed.json]]
+** [[https://nightmachinery.github.io/dblog/blog/rss.xml]]
+** [[https://nightmachinery.github.io/dblog/blog/atom.xml]]
+
+* The main page is at [[./src/pages/index.js]]
